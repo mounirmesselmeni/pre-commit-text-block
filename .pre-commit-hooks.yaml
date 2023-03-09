@@ -1,8 +1,8 @@
--   id: text-find
+-   id: textfind
     name: find undesired text in your code
     description: |
         Find undesired text in your code. Use with args  args: ["--text", "unwanted-text", "--text", "my-second-unwanted-text"]
     args: []
-    entry: text-find
+    entry: textfind
     language: python
     types: [python]

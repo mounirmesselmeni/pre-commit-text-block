@@ -1,14 +1,14 @@
-# pre-commit-text-find
+# pre-commit-textfind
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-Using pre-commit-text-find with pre-commit
+Using pre-commit-textfind with pre-commit
 Add this to your .pre-commit-config.yaml 🚀🚀
 
 ```yaml
-- repo: https://github.com/mounirmesselmeni/pre-commit-text-find
+- repo: https://github.com/mounirmesselmeni/pre-commit-textfind
   rev: "" # Use the sha / tag you want to point at
   hooks:
-    - id: text-find
+    - id: textfind
       args: ["--text", "unwanted-text1", "--text", "unwanted-text2"]
 ```
