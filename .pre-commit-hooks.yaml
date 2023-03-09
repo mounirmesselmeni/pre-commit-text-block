@@ -4,5 +4,5 @@
         Find undesired text in your code. Use with args  args: ["--text", "unwanted-text", "--text", "my-second-unwanted-text"]
     args: []
     entry: text-find
-    language: python
+    language: script
     types: [python]
