@@ -7,7 +7,7 @@ Add this to your .pre-commit-config.yaml 🚀🚀
 
 ```yaml
 - repo: https://github.com/mounirmesselmeni/pre-commit-textfind
-  rev: "" # Use the sha / tag you want to point at
+  rev: "0.1.0"
   hooks:
     - id: textfind
       args: ["--text", "unwanted-text1", "--text", "unwanted-text2"]
